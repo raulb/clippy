@@ -21,12 +21,12 @@ class Clippy {
     var label:TextField = new TextField();
     var format:TextFormat = new TextFormat("Monaco", 11);
     
-    label.text = "copy to clipboard";
+    label.text = "copy";
     label.setTextFormat(format);
     label.textColor = 0x82859f;
     label.selectable = false;
     label.x = 23;
-    label.width = 200;
+    label.width = 100;
     label.visible = false;
     
     flash.Lib.current.addChild(label);
@@ -52,7 +52,7 @@ class Clippy {
     
     button.addEventListener(MouseEvent.MOUSE_OUT, function(e:MouseEvent) {
       label.visible = false;
-      label.text = "copy to clipboard";
+      label.text = "copy";
       label.setTextFormat(format);
     });
     

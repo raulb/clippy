@@ -2,6 +2,6 @@
 -swf-version 9
 -swf-lib library.swf
 -main Clippy
--swf-header 130:21:0
+-swf-header 70:21:0
 --flash-use-stage
 --flash-strict

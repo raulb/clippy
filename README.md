@@ -12,7 +12,7 @@ page:
     def clippy(text, bgcolor='#FFFFFF')
       html = <<-EOF
         <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
-                width="110"
+                width="70"
                 height="21"
                 id="clippy" >
         <param name="movie" value="/flash/clippy.swf"/>
@@ -22,7 +22,7 @@ page:
         <param NAME="FlashVars" value="text=#{text}">
         <param name="bgcolor" value="#{bgcolor}">
         <embed src="/flash/clippy.swf"
-               width="110"
+               width="70"
                height="21"
                name="clippy"
                quality="high"
